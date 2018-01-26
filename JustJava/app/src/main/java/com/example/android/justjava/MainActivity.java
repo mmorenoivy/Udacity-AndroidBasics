@@ -58,13 +58,6 @@ public class MainActivity extends AppCompatActivity {
             // Exit this method early because there's nothing left to do
             return;
         }
-       // int quantity = 1;
-        quantity=quantity-1;
-        TextView mError = (TextView) findViewById(R.id.error);
-        if(quantity <=0)
-        {
-            mError.setText("Cannot select 0 or below");
-        }
         display(quantity);
     }
 
